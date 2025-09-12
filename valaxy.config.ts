@@ -64,7 +64,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         text: '友联',
         link: '/links/',
         icon: 'i-ri-links-fill',
-      }
+      },
       {
         text: '面基记录',
         link: "/offline/",
