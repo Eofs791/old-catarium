@@ -10,7 +10,7 @@ nav: false
 ---
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
 
-欢迎来交换友链喵，下方评论即可> <
+欢迎来交换友链喵，下方评论即可> <   
 我随缘打扫更新博客，希望不要介意喵
 
 >友链交换的小要求
