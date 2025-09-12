@@ -61,10 +61,20 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-price-tag-3-line',
       },
       {
-        text: '网页收藏',
+        text: '友联',
         link: '/links/',
         icon: 'i-ri-links-fill',
       }
+      {
+        text: '面基记录',
+        link: "/offline/",
+        icon: 'i-ri-shake-hands-line',
+      },
+      {
+        text: '赛博灵堂',
+        link: "/rip/",
+        icon: 'i-ri-cross-line',
+      }      
     ],
 
     footer: {
