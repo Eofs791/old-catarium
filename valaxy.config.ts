@@ -19,6 +19,17 @@ export default defineValaxyConfig<UserThemeConfig>({
     colors: {
       primary: '#F5A9B8',
     },
+    
+    bg_image: {
+      enable: true,
+      url: 'https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/bg2.jpg',
+      opacity: 0.2,
+    },
+
+    fireworks: {
+    enable: true,
+    colors: ['#FFC1CC', '#F48CA9', '#E06C8C']
+   },
 
     banner: {
       enable: true,
@@ -68,12 +79,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         text: '面基记录',
         link: "/offline/",
-        icon: 'i-ri-shake-hands-line',
+        icon: 'i-ri-cup-line',
       },
       {
         text: '赛博灵堂',
         link: "/rip/",
-        icon: 'i-ri-cross-line',
+        icon: 'i-ri-time-line',
       }      
     ],
 

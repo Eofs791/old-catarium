@@ -26,6 +26,7 @@ declare module 'vue-router/auto-routes' {
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
+    '/offline/': RouteRecordInfo<'/offline/', '/offline', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/20220102': RouteRecordInfo<'/posts/20220102', '/posts/20220102', Record<never, never>, Record<never, never>>,
@@ -44,6 +45,9 @@ declare module 'vue-router/auto-routes' {
     '/posts/20250626': RouteRecordInfo<'/posts/20250626', '/posts/20250626', Record<never, never>, Record<never, never>>,
     '/posts/20250706': RouteRecordInfo<'/posts/20250706', '/posts/20250706', Record<never, never>, Record<never, never>>,
     '/posts/20250806': RouteRecordInfo<'/posts/20250806', '/posts/20250806', Record<never, never>, Record<never, never>>,
+    '/posts/20250807': RouteRecordInfo<'/posts/20250807', '/posts/20250807', Record<never, never>, Record<never, never>>,
+    '/posts/20250910': RouteRecordInfo<'/posts/20250910', '/posts/20250910', Record<never, never>, Record<never, never>>,
+    '/rip/': RouteRecordInfo<'/rip/', '/rip', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
