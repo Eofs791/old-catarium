@@ -11,8 +11,8 @@ export default defineSiteConfig({
     name: '见崎美咲',
     avatar: 'https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico',
     status: {
-      emoji: '🐾',
-      message: 'Miao~'
+      emoji: '💤',
+      message: '冬眠中~'
     },
   intro: '文笔一般，随便写写'
   },
@@ -66,6 +66,12 @@ export default defineSiteConfig({
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
+    {
+      name: '开往 Travellings',
+      link: 'https://www.travellings.cn/go.html',
+      icon: 'i-ri-train-line',
+      color: '#000000'
+    }
   ],
 
   mediumZoom: { enable: true },
