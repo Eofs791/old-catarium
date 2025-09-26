@@ -70,7 +70,7 @@ export default defineSiteConfig({
       name: '开往 Travellings',
       link: 'https://www.travellings.cn/go.html',
       icon: 'i-ri-train-line',
-      color: '#000000'
+      color: 'black'
     }
   ],
 
