@@ -78,14 +78,19 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
       {
         text: '面基记录',
-        link: "/offline/",
+        link: "/collections/offline/",
         icon: 'i-ri-cup-line',
       },
       {
         text: '赛博灵堂',
-        link: "/rip/",
+        link: "/collections/rip",
         icon: 'i-ri-time-line',
-      }      
+      },
+      {
+        text: '月之背面',
+        link: "/collections/shadow/",
+        icon: 'i-ri-contrast-2-line'
+      }
     ],
 
     footer: {
