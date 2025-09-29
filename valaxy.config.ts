@@ -72,7 +72,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-price-tag-3-line',
       },
       {
-        text: '友联',
+        text: '友链',
         link: '/links/',
         icon: 'i-ri-links-fill',
       },
@@ -86,11 +86,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         link: "/collections/rip",
         icon: 'i-ri-time-line',
       },
-      {
-        text: '月之背面',
-        link: "/collections/shadow/",
-        icon: 'i-ri-contrast-2-line'
-      }
     ],
 
     footer: {

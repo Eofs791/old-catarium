@@ -3,7 +3,7 @@ import { defineCollection } from 'valaxy'
 export default defineCollection({
   key: 'rip',
   title: '赛博灵堂',
-  cover: '',
+  cover: 'i-ri-time-line',
   description: '记录退坑二游',
   items: [
     {

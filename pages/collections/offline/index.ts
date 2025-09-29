@@ -4,7 +4,7 @@ export default defineCollection({
   key: 'offline',
   title: '面基记录',
   cover: '',
-  description: '',
+  description: '与你的相遇，便是奇迹',
   items: [
     {
       title: '𝒻𝓇ℴ𝓈𝓉𝒾𝓃ℯ🍥',
