@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://Eofs791.github.io',
+  url: 'https://eofs791.github.io',
   lang: 'zh-CN',
   title: 'Catarium',
   subtitle: '你好，欢迎来到猫猫们的箱庭',
