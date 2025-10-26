@@ -1,6 +1,7 @@
 ---
 title: 猫的赛博灵堂
 layout: collection
+type: post
 nav: false
 toc: false
 sponsor: false
