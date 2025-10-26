@@ -1,6 +1,7 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
+import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need
 const safelist = [
@@ -76,16 +77,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         link: '/links/',
         icon: 'i-ri-links-fill',
       },
-      {
-        text: '面基记录',
-        link: "/collections/offline/",
-        icon: 'i-ri-cup-line',
-      },
-      {
-        text: '赛博灵堂',
-        link: "/collections/rip",
-        icon: 'i-ri-time-line',
-      },
     ],
 
     footer: {
@@ -105,6 +96,14 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonWaline({
       serverURL: 'https://waline-blush-ten.vercel.app/',
     }),
+    addonMeting({
+      global: true,
+      props: {
+        id: '2753957634',
+        server: 'netease',
+        type: 'song',
+      },
+    })
   ],  
 })
 

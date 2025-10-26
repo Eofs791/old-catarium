@@ -14,9 +14,12 @@ export default defineSiteConfig({
       emoji: '💤',
       message: '冬眠中~'
     },
-  intro: '文笔一般，随便写写'
+    intro: '文笔一般，随便写写'
   },
 
+  encrypt: {
+    enable: true,
+  },
 
   social: [
     {
@@ -78,7 +81,7 @@ export default defineSiteConfig({
 
   search: {
     enable: false,
-  }, 
+  },
 
   statistics: {
     enable: true,

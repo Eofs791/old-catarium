@@ -5,7 +5,7 @@ description: 猫的友人帐
 links: /links.json
 icon: i-ri-links-fill
 random: true
-toc: false
+aside: false
 nav: false
 ---
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />

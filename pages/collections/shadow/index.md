@@ -4,9 +4,7 @@ layout: collection
 nav: false
 toc: false
 sponsor: false
-copyright: false
-wordCount: false
-readingTime: false
-date: false
+date: 2025-08-06
+updated: 2025-08-07
 ---
 这里是一些无需被知晓的内容。

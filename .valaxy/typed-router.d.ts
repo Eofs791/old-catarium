@@ -26,6 +26,10 @@ declare module 'vue-router/auto-routes' {
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
     '/collections/': RouteRecordInfo<'/collections/', '/collections', Record<never, never>, Record<never, never>>,
+    '/collections/note/': RouteRecordInfo<'/collections/note/', '/collections/note', Record<never, never>, Record<never, never>>,
+    '/collections/note/1': RouteRecordInfo<'/collections/note/1', '/collections/note/1', Record<never, never>, Record<never, never>>,
+    '/collections/note/2': RouteRecordInfo<'/collections/note/2', '/collections/note/2', Record<never, never>, Record<never, never>>,
+    '/collections/note/3': RouteRecordInfo<'/collections/note/3', '/collections/note/3', Record<never, never>, Record<never, never>>,
     '/collections/offline/': RouteRecordInfo<'/collections/offline/', '/collections/offline', Record<never, never>, Record<never, never>>,
     '/collections/offline/1': RouteRecordInfo<'/collections/offline/1', '/collections/offline/1', Record<never, never>, Record<never, never>>,
     '/collections/rip/': RouteRecordInfo<'/collections/rip/', '/collections/rip', Record<never, never>, Record<never, never>>,
@@ -40,21 +44,213 @@ declare module 'vue-router/auto-routes' {
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/20220102': RouteRecordInfo<'/posts/20220102', '/posts/20220102', Record<never, never>, Record<never, never>>,
     '/posts/20220307': RouteRecordInfo<'/posts/20220307', '/posts/20220307', Record<never, never>, Record<never, never>>,
-    '/posts/20220604': RouteRecordInfo<'/posts/20220604', '/posts/20220604', Record<never, never>, Record<never, never>>,
     '/posts/20220617': RouteRecordInfo<'/posts/20220617', '/posts/20220617', Record<never, never>, Record<never, never>>,
-    '/posts/20220802': RouteRecordInfo<'/posts/20220802', '/posts/20220802', Record<never, never>, Record<never, never>>,
     '/posts/20221231': RouteRecordInfo<'/posts/20221231', '/posts/20221231', Record<never, never>, Record<never, never>>,
     '/posts/20230219': RouteRecordInfo<'/posts/20230219', '/posts/20230219', Record<never, never>, Record<never, never>>,
     '/posts/20230705': RouteRecordInfo<'/posts/20230705', '/posts/20230705', Record<never, never>, Record<never, never>>,
     '/posts/20241110': RouteRecordInfo<'/posts/20241110', '/posts/20241110', Record<never, never>, Record<never, never>>,
     '/posts/20250101': RouteRecordInfo<'/posts/20250101', '/posts/20250101', Record<never, never>, Record<never, never>>,
     '/posts/20250211': RouteRecordInfo<'/posts/20250211', '/posts/20250211', Record<never, never>, Record<never, never>>,
-    '/posts/20250610': RouteRecordInfo<'/posts/20250610', '/posts/20250610', Record<never, never>, Record<never, never>>,
     '/posts/20250617': RouteRecordInfo<'/posts/20250617', '/posts/20250617', Record<never, never>, Record<never, never>>,
     '/posts/20250626': RouteRecordInfo<'/posts/20250626', '/posts/20250626', Record<never, never>, Record<never, never>>,
     '/posts/20250706': RouteRecordInfo<'/posts/20250706', '/posts/20250706', Record<never, never>, Record<never, never>>,
     '/posts/202509': RouteRecordInfo<'/posts/202509', '/posts/202509', Record<never, never>, Record<never, never>>,
     '/posts/20250924': RouteRecordInfo<'/posts/20250924', '/posts/20250924', Record<never, never>, Record<never, never>>,
+    '/posts/colle/note': RouteRecordInfo<'/posts/colle/note', '/posts/colle/note', Record<never, never>, Record<never, never>>,
+    '/posts/colle/offline': RouteRecordInfo<'/posts/colle/offline', '/posts/colle/offline', Record<never, never>, Record<never, never>>,
+    '/posts/colle/rip': RouteRecordInfo<'/posts/colle/rip', '/posts/colle/rip', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
+
+  /**
+   * Route file to route info map by unplugin-vue-router.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * Each key is a file path relative to the project root with 2 properties:
+   * - routes: union of route names of the possible routes when in this page (passed to useRoute<...>())
+   * - views: names of nested views (can be passed to <RouterView name="...">)
+   *
+   * @internal
+   */
+  export interface _RouteFileInfoMap {
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.1_vue@3.5.22_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/index.vue': {
+      routes: '/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy@0.26.6_@babel+parser_362f465bd773535acae66c07a87ee1a1/node_modules/valaxy/client/pages/[...path].vue': {
+      routes: '/[...path]'
+      views: never
+    }
+    'pages/404.md': {
+      routes: '/404'
+      views: never
+    }
+    'pages/about/index.md': {
+      routes: '/about/'
+      views: never
+    }
+    'pages/about/site.md': {
+      routes: '/about/site'
+      views: never
+    }
+    'pages/archives/index.md': {
+      routes: '/archives/'
+      views: never
+    }
+    'pages/categories/index.md': {
+      routes: '/categories/'
+      views: never
+    }
+    'pages/collections/index.md': {
+      routes: '/collections/'
+      views: never
+    }
+    'pages/collections/note/index.md': {
+      routes: '/collections/note/'
+      views: never
+    }
+    'pages/collections/note/1.md': {
+      routes: '/collections/note/1'
+      views: never
+    }
+    'pages/collections/note/2.md': {
+      routes: '/collections/note/2'
+      views: never
+    }
+    'pages/collections/note/3.md': {
+      routes: '/collections/note/3'
+      views: never
+    }
+    'pages/collections/offline/index.md': {
+      routes: '/collections/offline/'
+      views: never
+    }
+    'pages/collections/offline/1.md': {
+      routes: '/collections/offline/1'
+      views: never
+    }
+    'pages/collections/rip/index.md': {
+      routes: '/collections/rip/'
+      views: never
+    }
+    'pages/collections/rip/1.md': {
+      routes: '/collections/rip/1'
+      views: never
+    }
+    'pages/collections/rip/2.md': {
+      routes: '/collections/rip/2'
+      views: never
+    }
+    'pages/collections/rip/3.md': {
+      routes: '/collections/rip/3'
+      views: never
+    }
+    'pages/collections/shadow/index.md': {
+      routes: '/collections/shadow/'
+      views: never
+    }
+    'pages/collections/shadow/1.md': {
+      routes: '/collections/shadow/1'
+      views: never
+    }
+    'pages/collections/shadow/2.md': {
+      routes: '/collections/shadow/2'
+      views: never
+    }
+    'pages/links/index.md': {
+      routes: '/links/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.1_vue@3.5.22_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+      routes: '/page/[page]'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.1_vue@3.5.22_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+      routes: '/posts/'
+      views: never
+    }
+    'pages/posts/20220102.md': {
+      routes: '/posts/20220102'
+      views: never
+    }
+    'pages/posts/20220307.md': {
+      routes: '/posts/20220307'
+      views: never
+    }
+    'pages/posts/20220617.md': {
+      routes: '/posts/20220617'
+      views: never
+    }
+    'pages/posts/20221231.md': {
+      routes: '/posts/20221231'
+      views: never
+    }
+    'pages/posts/20230219.md': {
+      routes: '/posts/20230219'
+      views: never
+    }
+    'pages/posts/20230705.md': {
+      routes: '/posts/20230705'
+      views: never
+    }
+    'pages/posts/20241110.md': {
+      routes: '/posts/20241110'
+      views: never
+    }
+    'pages/posts/20250101.md': {
+      routes: '/posts/20250101'
+      views: never
+    }
+    'pages/posts/20250211.md': {
+      routes: '/posts/20250211'
+      views: never
+    }
+    'pages/posts/20250617.md': {
+      routes: '/posts/20250617'
+      views: never
+    }
+    'pages/posts/20250626.md': {
+      routes: '/posts/20250626'
+      views: never
+    }
+    'pages/posts/20250706.md': {
+      routes: '/posts/20250706'
+      views: never
+    }
+    'pages/posts/202509.md': {
+      routes: '/posts/202509'
+      views: never
+    }
+    'pages/posts/20250924.md': {
+      routes: '/posts/20250924'
+      views: never
+    }
+    'pages/posts/colle/note.md': {
+      routes: '/posts/colle/note'
+      views: never
+    }
+    'pages/posts/colle/offline.md': {
+      routes: '/posts/colle/offline'
+      views: never
+    }
+    'pages/posts/colle/rip.md': {
+      routes: '/posts/colle/rip'
+      views: never
+    }
+    'pages/tags/index.md': {
+      routes: '/tags/'
+      views: never
+    }
+  }
+
+  /**
+   * Get a union of possible route names in a certain route component file.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * @internal
+   */
+  export type _RouteNamesForFilePath<FilePath extends string> =
+    _RouteFileInfoMap extends Record<FilePath, infer Info>
+      ? Info['routes']
+      : keyof RouteNamedMap
 }
