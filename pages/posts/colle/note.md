@@ -5,8 +5,8 @@ categories: 收藏室
 date: 2022-06-04
 updated: 2025-06-10
 ---
-<h5><blockquote style="border-left: 4px solid #F5A9B8; margin: 1em 0; padding-left: 1em;">
-已更新：可爱表情收集~~青色的女孩：幸运青
+<h5><blockquote style="border-left: 4px solid #F5A9B8;">
+已更新：《可爱表情收集~~青色的女孩：幸运青》
 </blockquote></h5>
 <h5>往期文章</h5>
 <ul>

@@ -1,8 +1,6 @@
 ---
 title: 关于Catarium
 nav: false
-toc: false
-comment: false
 ---
 ## 你在这里会看见：
 - 我自我陶醉的文章（×    
@@ -10,9 +8,6 @@ comment: false
 - 我的全收集游戏存档（都是自己打的哦）
 ## ToDo List
 - [ ] 网页收藏页面
-- [ ] 赛博灵堂页面
-- [ ] 面基记录页面
 - [ ] 评论系统美化
-- [ ] live2d看板娘（或许？）
 
 [搭建日志](https://eofs791.github.io/posts/20250626)

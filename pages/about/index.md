@@ -1,8 +1,6 @@
 ---
 title: 关于见崎猫/见崎美咲
 nav: false
-toc: false
-comment: false
 ---
 穿梭于网络中的猫。  
 矛盾体。  
@@ -25,3 +23,6 @@ ISFP → INFP-T
 - [ ] Cosplay  
 - [ ] 3D 打印  
 - [ ] 痛车
+
+## 追番列表
+<ValaxyBangumi />

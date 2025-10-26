@@ -39,6 +39,8 @@ declare module 'vue-router/auto-routes' {
     '/collections/shadow/': RouteRecordInfo<'/collections/shadow/', '/collections/shadow', Record<never, never>, Record<never, never>>,
     '/collections/shadow/1': RouteRecordInfo<'/collections/shadow/1', '/collections/shadow/1', Record<never, never>, Record<never, never>>,
     '/collections/shadow/2': RouteRecordInfo<'/collections/shadow/2', '/collections/shadow/2', Record<never, never>, Record<never, never>>,
+    '/collections/thought/': RouteRecordInfo<'/collections/thought/', '/collections/thought', Record<never, never>, Record<never, never>>,
+    '/collections/thought/1': RouteRecordInfo<'/collections/thought/1', '/collections/thought/1', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
@@ -54,11 +56,11 @@ declare module 'vue-router/auto-routes' {
     '/posts/20250617': RouteRecordInfo<'/posts/20250617', '/posts/20250617', Record<never, never>, Record<never, never>>,
     '/posts/20250626': RouteRecordInfo<'/posts/20250626', '/posts/20250626', Record<never, never>, Record<never, never>>,
     '/posts/20250706': RouteRecordInfo<'/posts/20250706', '/posts/20250706', Record<never, never>, Record<never, never>>,
-    '/posts/202509': RouteRecordInfo<'/posts/202509', '/posts/202509', Record<never, never>, Record<never, never>>,
     '/posts/20250924': RouteRecordInfo<'/posts/20250924', '/posts/20250924', Record<never, never>, Record<never, never>>,
     '/posts/colle/note': RouteRecordInfo<'/posts/colle/note', '/posts/colle/note', Record<never, never>, Record<never, never>>,
     '/posts/colle/offline': RouteRecordInfo<'/posts/colle/offline', '/posts/colle/offline', Record<never, never>, Record<never, never>>,
     '/posts/colle/rip': RouteRecordInfo<'/posts/colle/rip', '/posts/colle/rip', Record<never, never>, Record<never, never>>,
+    '/posts/colle/thought': RouteRecordInfo<'/posts/colle/thought', '/posts/colle/thought', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 
@@ -157,6 +159,14 @@ declare module 'vue-router/auto-routes' {
       routes: '/collections/shadow/2'
       views: never
     }
+    'pages/collections/thought/index.md': {
+      routes: '/collections/thought/'
+      views: never
+    }
+    'pages/collections/thought/1.md': {
+      routes: '/collections/thought/1'
+      views: never
+    }
     'pages/links/index.md': {
       routes: '/links/'
       views: never
@@ -217,10 +227,6 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/20250706'
       views: never
     }
-    'pages/posts/202509.md': {
-      routes: '/posts/202509'
-      views: never
-    }
     'pages/posts/20250924.md': {
       routes: '/posts/20250924'
       views: never
@@ -235,6 +241,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/colle/rip.md': {
       routes: '/posts/colle/rip'
+      views: never
+    }
+    'pages/posts/colle/thought.md': {
+      routes: '/posts/colle/thought'
       views: never
     }
     'pages/tags/index.md': {

@@ -2,6 +2,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonMeting } from 'valaxy-addon-meting'
+import { addonBangumi } from 'valaxy-addon-bangumi'
 
 // add icons what you will need
 const safelist = [
@@ -20,7 +21,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     colors: {
       primary: '#F5A9B8',
     },
-    
+
     bg_image: {
       enable: true,
       url: 'https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/bg2.jpg',
@@ -28,9 +29,9 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     fireworks: {
-    enable: true,
-    colors: ['#FFC1CC', '#F48CA9', '#E06C8C']
-   },
+      enable: true,
+      colors: ['#FFC1CC', '#F48CA9', '#E06C8C']
+    },
 
     banner: {
       enable: true,
@@ -52,7 +53,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '',
         url: '/links/',
         icon: 'i-ri-links-fill',
-        
+
       }
     ],
 
@@ -102,9 +103,25 @@ export default defineValaxyConfig<UserThemeConfig>({
         id: '2753957634',
         server: 'netease',
         type: 'song',
+        mini: true,
+        autoplay: true,
+        theme: "#F5A9B8",
+        loop: "one",
+        mutex: true,
+        options: {
+          animationIn: true,
+          autoHidden: false,
+          lyricHidden: false,
+        }
       },
-    })
-  ],  
+    }),
+    addonBangumi({
+      api: 'https://yi_xiao_jiu-bangumi.web.val.run',
+      bgmUid: 'eofs',
+      bgmEnabled: true,
+      bilibiliEnabled: false,
+    }),
+  ],
 })
 
 

@@ -1,5 +1,5 @@
 ---
-title: 月之背面
+title: 思绪
 layout: collection
 nav: false
 toc: false
