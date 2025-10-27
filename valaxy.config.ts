@@ -103,16 +103,13 @@ export default defineValaxyConfig<UserThemeConfig>({
         id: '2753957634',
         server: 'netease',
         type: 'song',
-        mini: true,
         autoplay: true,
         theme: "#F5A9B8",
         loop: "one",
         mutex: true,
-        options: {
-          animationIn: true,
-          autoHidden: false,
-          lyricHidden: false,
-        }
+      },
+      options: {
+        lyricHidden: true,
       },
     }),
     addonBangumi({
