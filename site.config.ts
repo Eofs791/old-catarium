@@ -4,7 +4,7 @@ export default defineSiteConfig({
   url: 'https://eofs791.github.io',
   lang: 'zh-CN',
   title: 'Catarium',
-  subtitle: '你好，欢迎来到猫猫们的箱庭',
+  subtitle: '小箱庭',
   description: '',
   favicon: '/favicon.ico',
   author: {
@@ -14,7 +14,7 @@ export default defineSiteConfig({
       emoji: '💤',
       message: '冬眠中~'
     },
-    intro: '文笔一般，随便写写'
+    intro: '无意义存活中……'
   },
 
   encrypt: {
