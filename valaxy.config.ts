@@ -102,11 +102,9 @@ export default defineValaxyConfig<UserThemeConfig>({
       props: {
         id: '2753957634',
         server: 'netease',
-        type: 'song',
         autoplay: true,
         theme: "#F5A9B8",
         loop: "one",
-        mutex: true,
       },
       options: {
         lyricHidden: true,
