@@ -102,9 +102,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       props: {
         id: '2753957634',
         server: 'netease',
+        type: 'song',
         autoplay: true,
-        theme: "#F5A9B8",
-        loop: "one",
+        theme: '#F5A9B8',
+        loop: 'one',
+        api: 'https://api.injahow.cn/meting/',
       },
       options: {
         lyricHidden: true,
