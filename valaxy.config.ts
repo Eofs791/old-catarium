@@ -100,13 +100,12 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonMeting({
       global: true,
       props: {
-        id: '2753957634',
-        server: 'netease',
-        type: 'song',
+        id: "2753957634",
+        server: "netease",
+        type: "song",
         autoplay: true,
-        theme: '#F5A9B8',
-        loop: 'one',
-        api: 'https://api.injahow.cn/meting/',
+        theme: "#F5A9B8",
+        loop: "one",
       },
       options: {
         lyricHidden: true,
