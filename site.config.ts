@@ -1,20 +1,20 @@
-import { defineSiteConfig } from 'valaxy'
+import {  $t,defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://eofs791.github.io',
   lang: 'zh-CN',
   title: 'Catarium',
-  subtitle: '小箱庭',
+  subtitle: $t('siteConfig.subtitle'),
   description: '',
   favicon: '/favicon.ico',
   author: {
-    name: '见崎美咲',
+    name: $t('siteConfig.name'),
     avatar: 'https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico',
     status: {
       emoji: '💤',
-      message: '冬眠中~'
+      message: $t('siteConfig.msg')
     },
-    intro: '无意义存活中……'
+    intro: $t('siteConfig.intro')
   },
 
   encrypt: {
@@ -35,7 +35,7 @@ export default defineSiteConfig({
       color: '#FF8EB3',
     },
     {
-      name: '哔哩哔哩',
+      name: 'BiliBili',
       link: 'https://space.bilibili.com/397924646',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',

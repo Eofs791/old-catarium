@@ -1,4 +1,15 @@
 # 你可以像这样自定义 i18n
-intro:
-  desc: Valaxy 模版
-  hi: 你好，Valaxy
+siteConfig:
+  subtitle: 小箱庭
+  name: 见崎美咲
+  msg: 冬眠中...
+  intro: 无意义存活着
+  
+
+themeConfig:
+  nav:
+    archives: 归档
+    categories: 分类
+    tags: 标签
+    friends: 友连
+  

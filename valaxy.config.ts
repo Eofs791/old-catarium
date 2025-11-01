@@ -1,8 +1,9 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { defineValaxyConfig } from 'valaxy'
+import { $t,defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonMeting } from 'valaxy-addon-meting'
 import { addonBangumi } from 'valaxy-addon-bangumi'
+
 
 // add icons what you will need
 const safelist = [
@@ -59,23 +60,23 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     nav: [
       {
-        text: '归档',
+        text: $t('themeConfig.nav.archives'),
         link: '/archives/',
         icon: 'i-ri-archive-line',
       },
       {
-        text: '分类',
+        text: $t('themeConfig.nav.categories'),
         link: '/categories/',
         icon: 'i-ri-folder-2-line',
       },
       {
-        text: '标签',
+        text: $t('themeConfig.nav.tags'),
         link: '/tags/',
         icon: 'i-ri-price-tag-3-line',
       },
       {
-        text: '友链',
-        link: '/links/',
+        text: $t('themeConfig.nav.friends'),
+        link: '/friends/',
         icon: 'i-ri-links-fill',
       },
     ],

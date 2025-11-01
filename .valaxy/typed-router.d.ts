@@ -184,9 +184,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/links/': RouteRecordInfo<
-      '/links/',
-      '/links',
+    '/friends/': RouteRecordInfo<
+      '/friends/',
+      '/friends',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -503,9 +503,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/links/index.md': {
+    'pages/friends/index.md': {
       routes:
-        | '/links/'
+        | '/friends/'
       views:
         | never
     }

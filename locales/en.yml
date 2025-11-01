@@ -1,4 +1,13 @@
 # you can custom locale
-intro:
-  desc: Valaxy Template
-  hi: Hello, Valaxy!
+siteConfig: 
+  subtitle: Small Terrarium
+  name: Misaki Miao
+  msg: Hibernating...
+  intro: Living Meaninglessly
+
+themeConfig:
+  nav:
+    archives: Archives
+    categories: Categories
+    tags: Tags
+    friends: Friends
