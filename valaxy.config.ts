@@ -62,12 +62,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         text: $t('themeConfig.nav.archives'),
         link: '/archives/',
-        icon: 'i-ri-archive-line',
+        icon: 'i-ri-folder-history-line',
       },
       {
         text: $t('themeConfig.nav.categories'),
         link: '/categories/',
-        icon: 'i-ri-folder-2-line',
+        icon: 'i-ri-archive-drawer-line',
       },
       {
         text: $t('themeConfig.nav.tags'),
@@ -75,13 +75,13 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-price-tag-3-line',
       },
       {
-        text: $t('themeConfig.nav.friends'),
-        link: '/friends/',
-        icon: 'i-ri-links-fill',
-      },
-      {
         text: $t('themeConfig.nav.websites'),
         link: '/websites/',
+        icon: 'i-ri-window-line',
+      },
+      {
+        text: $t('themeConfig.nav.friends'),
+        link: '/friends/',
         icon: 'i-ri-links-fill',
       },
     ],
