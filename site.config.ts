@@ -1,7 +1,7 @@
 import {  $t,defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://eofs791.github.io',
+  url: 'https://catarium.me',
   lang: 'zh-CN',
   title: 'Catarium',
   subtitle: $t('siteConfig.subtitle'),
@@ -12,10 +12,12 @@ export default defineSiteConfig({
     avatar: 'https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico',
     status: {
       emoji: '💤',
-      message: $t('siteConfig.msg')
+      message: '冬眠中...'
     },
     intro: $t('siteConfig.intro')
   },
+
+  orderBy: 'updated',
 
   encrypt: {
     enable: true,
@@ -42,7 +44,7 @@ export default defineSiteConfig({
     },
     {
       name: 'Twitter',
-      link: 'https://x.com/mi7sa9ki1',
+      link: 'https://x.com/MaoQi33394',
       icon: 'i-ri-twitter-x-fill',
       color: 'black',
     },

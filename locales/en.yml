@@ -1,8 +1,7 @@
 # you can custom locale
 siteConfig: 
   subtitle: Small Terrarium
-  name: Misaki Miao
-  msg: Hibernating...
+  name: MisakiNeko
   intro: Living Meaninglessly
 
 themeConfig:
@@ -11,3 +10,4 @@ themeConfig:
     categories: Categories
     tags: Tags
     friends: Friends
+    websites: Websites

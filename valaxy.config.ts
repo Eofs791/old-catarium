@@ -79,6 +79,11 @@ export default defineValaxyConfig<UserThemeConfig>({
         link: '/friends/',
         icon: 'i-ri-links-fill',
       },
+      {
+        text: $t('themeConfig.nav.websites'),
+        link: '/websites/',
+        icon: 'i-ri-links-fill',
+      },
     ],
 
     footer: {

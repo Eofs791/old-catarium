@@ -2,7 +2,6 @@
 siteConfig:
   subtitle: 小箱庭
   name: 见崎美咲
-  msg: 冬眠中...
   intro: 无意义存活着
   
 
@@ -12,4 +11,5 @@ themeConfig:
     categories: 分类
     tags: 标签
     friends: 友连
+    websites: 网页收藏
   

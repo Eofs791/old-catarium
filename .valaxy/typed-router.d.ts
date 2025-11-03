@@ -352,6 +352,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/websites/': RouteRecordInfo<
+      '/websites/',
+      '/websites',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
   }
 
   /**
@@ -371,7 +378,7 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.26.7_@babel+parser_ffc9126da8162418487a114f497b7a05/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.26.8_@babel+parser_166b1c9e6afd431a605f820c398e6017/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -644,6 +651,12 @@ declare module 'vue-router/auto-routes' {
     'pages/tags/index.md': {
       routes:
         | '/tags/'
+      views:
+        | never
+    }
+    'pages/websites/index.md': {
+      routes:
+        | '/websites/'
       views:
         | never
     }

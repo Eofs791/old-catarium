@@ -20,7 +20,7 @@ nav: false
 - 加入了我的友链    
 
 >我的友链：
-```ts
+```json
 "url": "eofs791.github.io",  
 "avatar": "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico",  
 "name": "Catarium",  
@@ -30,7 +30,7 @@ nav: false
 ```
 
 >友链交换格式
-```ts
+```json
 "url": "博客URL",  
 "avatar": "头像URL",  
 "name": "博客名称",  
