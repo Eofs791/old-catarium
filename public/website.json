@@ -90,25 +90,53 @@
         "type": "News",
         "reason": "ACG资源信息分享"
     },
-      {
-    "name": "动画巡礼",
-    "url": "https://www.anitabi.cn/",
-    "avatar": "https://www.anitabi.cn/favicon.ico",
-    "type": "Wiki",
-    "reason": "圣地巡礼地图"
-  },
     {
-    "name": "Mikutap",
-    "url": "https://aidn.jp/mikutap/",
-    "avatar": "https://aidn.jp/mikutap/favicon.ico",
-    "type": "Fun",
-    "reason": "Miku互动型网页音乐网站"
-  },
+        "name": "动画巡礼",
+        "url": "https://www.anitabi.cn/",
+        "avatar": "https://www.anitabi.cn/favicon.ico",
+        "type": "Wiki",
+        "reason": "圣地巡礼地图"
+    },
     {
-    "name": "石蒜模拟器",
-    "url": "https://lab.magiconch.com/sakana/",
-    "avatar": "https://raw.githubusercontent.com/itorr/sakana/main/html/takina.png",
-    "type": "Fun",
-    "reason": "Sakana~"
-  }
+        "name": "Mikutap",
+        "url": "https://aidn.jp/mikutap/",
+        "avatar": "https://aidn.jp/mikutap/favicon.ico",
+        "type": "Fun",
+        "reason": "Miku互动型网页音乐网站"
+    },
+    {
+        "name": "石蒜模拟器",
+        "url": "https://lab.magiconch.com/sakana/",
+        "avatar": "https://raw.githubusercontent.com/itorr/sakana/main/html/takina.png",
+        "type": "Fun",
+        "reason": "Sakana~"
+    },
+    {
+        "name": "化学极乐百科",
+        "url": "https://www.overdose.day/",
+        "avatar": "https://www.overdose.day/favicon.ico",
+        "type": "Wiki",
+        "reason": "化学极乐知识"
+    },
+    {
+        "name": "Wplace",
+        "url": "https://wplace.live/",
+        "avatar":"https://wplace.live/favicon.ico",
+        "type": "Fun",
+        "reason": "可涂鸦地图（已被二次元侵占）"
+    },
+        {
+        "name": "UNDER THE SAME SKY",
+        "url": "https://5th.fate-go.jp/",
+        "avatar": "https://5th.fate-go.jp/favicon.ico",
+        "type": "Colle",
+        "reason": "FGO五周年视觉图企划"
+    },
+    {
+        "name": "GAL图书馆",
+        "url": "https://gallibrary.pw/",
+        "avatar": "https://gallibrary.pw/favicon.ico",
+        "type": "Wiki",
+        "reason": "GalGame数据库"
+    }
 ]
