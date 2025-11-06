@@ -7,7 +7,10 @@ nav: false
 - 各种记录   
 - 我的全收集游戏存档
 ## ToDo List
-- [ ] 网页收藏页面
 - [ ] 评论系统美化
+- [ ] 网页收藏Random显示
+- [ ] 二游记录内容
+- [ ] GitHub学生包详解
+- [ ] Java魔爪评测
 
 [搭建日志](https://eofs791.github.io/posts/20250626)

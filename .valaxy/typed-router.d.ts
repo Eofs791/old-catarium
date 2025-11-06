@@ -303,16 +303,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/20251100': RouteRecordInfo<
-      '/posts/20251100',
-      '/posts/20251100',
+    '/posts/20251101': RouteRecordInfo<
+      '/posts/20251101',
+      '/posts/20251101',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/20251101': RouteRecordInfo<
-      '/posts/20251101',
-      '/posts/20251101',
+    '/posts/20251104': RouteRecordInfo<
+      '/posts/20251104',
+      '/posts/20251104',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -341,6 +341,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/colle/thought': RouteRecordInfo<
       '/posts/colle/thought',
       '/posts/colle/thought',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/monster': RouteRecordInfo<
+      '/posts/monster',
+      '/posts/monster',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -612,15 +619,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/20251100.md': {
-      routes:
-        | '/posts/20251100'
-      views:
-        | never
-    }
     'pages/posts/20251101.md': {
       routes:
         | '/posts/20251101'
+      views:
+        | never
+    }
+    'pages/posts/20251104.md': {
+      routes:
+        | '/posts/20251104'
       views:
         | never
     }
@@ -645,6 +652,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/colle/thought.md': {
       routes:
         | '/posts/colle/thought'
+      views:
+        | never
+    }
+    'pages/posts/monster.md': {
+      routes:
+        | '/posts/monster'
       views:
         | never
     }
