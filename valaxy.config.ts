@@ -41,21 +41,15 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '',
-        url: '/categories/',
-        icon: 'i-ri-archive-line',
+        name: $t('themeConfig.nav.websites'),
+        url: '/websites/',
+        icon: 'i-ri-window-line',
       },
       {
-        name: '',
-        url: '/tags/',
-        icon: 'i-ri-price-tag-3-line',
-      },
-      {
-        name: '',
-        url: '/links/',
+        name: $t('themeConfig.nav.friends'),
+        url: '/friends/',
         icon: 'i-ri-links-fill',
-
-      }
+      },
     ],
 
     nav: [
