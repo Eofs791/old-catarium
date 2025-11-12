@@ -7,16 +7,69 @@ export default defineCollection({
   description: '记录退坑二游',
   items: [
     {
-      title: '尘白禁区',
+      title: '崩坏3 / Honkai Impact 3rd',
       key: '1',
     },
     {
-      title: '原神',
+      title: '战双帕弥什 / Punishing: Gray Raven',
       key: '2',
     },
     {
-      title: '来电记录',
+      title: 'Fate/Grand Order',
       key: '3',
-    }
+    },
+    {
+      title: '明日方舟 / Arknights',
+      key: '4',
+    },
+    {
+      title: '崩坏学院2',
+      key: '5',
+    },
+    {
+      title: 'Phigros',
+      key: '6',
+    },
+    {
+      title: '原神 / Genshin Impact',
+      key: '7',
+    },
+    {
+      title: '无期迷途 / Path to Nowhere',
+      key: '8',
+    },
+    {
+      title: 'NNIKKE：胜利女神',
+      key: '9',
+    },
+    {
+      title: '崩坏：星穹铁道 / Honkai: Rail Star',
+      key: '10',
+    },
+    {
+      title: '尘白禁区 / Snowbreak: Containment Zone',
+      key: '11',
+    },
+    {
+      title: '交错战线 / CrossCore',
+      key: '12',
+    },
+    {
+      title: '鸣潮 / Wuthering Waves',
+      key: '13',
+    },
+    {
+      title: '归龙潮 / Guilongchao',
+      key: '14',
+    },
+    {
+      title: 'No.-1 赛马娘 / Pretty Derby',
+      key: '998',
+    },
+    {
+      title: '坟场 / Cemetery',
+      key: '999',
+    },
+
   ]
 })

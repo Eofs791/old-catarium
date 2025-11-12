@@ -135,6 +135,41 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/collections/rip/10': RouteRecordInfo<
+      '/collections/rip/10',
+      '/collections/rip/10',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/11': RouteRecordInfo<
+      '/collections/rip/11',
+      '/collections/rip/11',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/12': RouteRecordInfo<
+      '/collections/rip/12',
+      '/collections/rip/12',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/13': RouteRecordInfo<
+      '/collections/rip/13',
+      '/collections/rip/13',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/14': RouteRecordInfo<
+      '/collections/rip/14',
+      '/collections/rip/14',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/collections/rip/2': RouteRecordInfo<
       '/collections/rip/2',
       '/collections/rip/2',
@@ -145,6 +180,69 @@ declare module 'vue-router/auto-routes' {
     '/collections/rip/3': RouteRecordInfo<
       '/collections/rip/3',
       '/collections/rip/3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/4': RouteRecordInfo<
+      '/collections/rip/4',
+      '/collections/rip/4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/5': RouteRecordInfo<
+      '/collections/rip/5',
+      '/collections/rip/5',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/6': RouteRecordInfo<
+      '/collections/rip/6',
+      '/collections/rip/6',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/7': RouteRecordInfo<
+      '/collections/rip/7',
+      '/collections/rip/7',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/8': RouteRecordInfo<
+      '/collections/rip/8',
+      '/collections/rip/8',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/9': RouteRecordInfo<
+      '/collections/rip/9',
+      '/collections/rip/9',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/900': RouteRecordInfo<
+      '/collections/rip/900',
+      '/collections/rip/900',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/998': RouteRecordInfo<
+      '/collections/rip/998',
+      '/collections/rip/998',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/rip/999': RouteRecordInfo<
+      '/collections/rip/999',
+      '/collections/rip/999',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -317,6 +415,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/20251112': RouteRecordInfo<
+      '/posts/20251112',
+      '/posts/20251112',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/colle/note': RouteRecordInfo<
       '/posts/colle/note',
       '/posts/colle/note',
@@ -331,23 +436,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/colle/rip': RouteRecordInfo<
-      '/posts/colle/rip',
-      '/posts/colle/rip',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/colle/thought': RouteRecordInfo<
       '/posts/colle/thought',
       '/posts/colle/thought',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/monster': RouteRecordInfo<
-      '/posts/monster',
-      '/posts/monster',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -475,6 +566,36 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/collections/rip/10.md': {
+      routes:
+        | '/collections/rip/10'
+      views:
+        | never
+    }
+    'pages/collections/rip/11.md': {
+      routes:
+        | '/collections/rip/11'
+      views:
+        | never
+    }
+    'pages/collections/rip/12.md': {
+      routes:
+        | '/collections/rip/12'
+      views:
+        | never
+    }
+    'pages/collections/rip/13.md': {
+      routes:
+        | '/collections/rip/13'
+      views:
+        | never
+    }
+    'pages/collections/rip/14.md': {
+      routes:
+        | '/collections/rip/14'
+      views:
+        | never
+    }
     'pages/collections/rip/2.md': {
       routes:
         | '/collections/rip/2'
@@ -484,6 +605,60 @@ declare module 'vue-router/auto-routes' {
     'pages/collections/rip/3.md': {
       routes:
         | '/collections/rip/3'
+      views:
+        | never
+    }
+    'pages/collections/rip/4.md': {
+      routes:
+        | '/collections/rip/4'
+      views:
+        | never
+    }
+    'pages/collections/rip/5.md': {
+      routes:
+        | '/collections/rip/5'
+      views:
+        | never
+    }
+    'pages/collections/rip/6.md': {
+      routes:
+        | '/collections/rip/6'
+      views:
+        | never
+    }
+    'pages/collections/rip/7.md': {
+      routes:
+        | '/collections/rip/7'
+      views:
+        | never
+    }
+    'pages/collections/rip/8.md': {
+      routes:
+        | '/collections/rip/8'
+      views:
+        | never
+    }
+    'pages/collections/rip/9.md': {
+      routes:
+        | '/collections/rip/9'
+      views:
+        | never
+    }
+    'pages/collections/rip/900.md': {
+      routes:
+        | '/collections/rip/900'
+      views:
+        | never
+    }
+    'pages/collections/rip/998.md': {
+      routes:
+        | '/collections/rip/998'
+      views:
+        | never
+    }
+    'pages/collections/rip/999.md': {
+      routes:
+        | '/collections/rip/999'
       views:
         | never
     }
@@ -631,6 +806,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/20251112.md': {
+      routes:
+        | '/posts/20251112'
+      views:
+        | never
+    }
     'pages/posts/colle/note.md': {
       routes:
         | '/posts/colle/note'
@@ -643,21 +824,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/colle/rip.md': {
-      routes:
-        | '/posts/colle/rip'
-      views:
-        | never
-    }
     'pages/posts/colle/thought.md': {
       routes:
         | '/posts/colle/thought'
-      views:
-        | never
-    }
-    'pages/posts/monster.md': {
-      routes:
-        | '/posts/monster'
       views:
         | never
     }

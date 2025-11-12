@@ -40,7 +40,7 @@ onMounted(() => {
       <div>猫之箱庭的时光已悄然流转{{ uptime }}</div>
     </div>
     <div style="display: flex; justify-content: center; width: 100%;margin-top: 8px;">
-      <img src="https://count.getloli.com/@Catarium?name=Catarium&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" style="width: 300px; height: auto;" />
+      <img src="https://count.getloli.com/@Catarium?name=Catarium&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" title="其实没有这么多，都是我自己测试时候刷的QWQ" style="width: 300px; height: auto;" />
     </div>
   </YunFooter>
 </template>
