@@ -436,6 +436,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/colle/rip': RouteRecordInfo<
+      '/posts/colle/rip',
+      '/posts/colle/rip',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/colle/thought': RouteRecordInfo<
       '/posts/colle/thought',
       '/posts/colle/thought',
@@ -821,6 +828,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/colle/offline.md': {
       routes:
         | '/posts/colle/offline'
+      views:
+        | never
+    }
+    'pages/posts/colle/rip.md': {
+      routes:
+        | '/posts/colle/rip'
       views:
         | never
     }
