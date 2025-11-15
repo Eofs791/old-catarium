@@ -128,7 +128,7 @@
         {
         "name": "UNDER THE SAME SKY",
         "url": "https://5th.fate-go.jp/",
-        "avatar": "https://5th.fate-go.jp/favicon.ico",
+        "avatar": "https://5th.fate-go.jp/assets/img/footer/ph_5thlogo.png",
         "type": "Colle",
         "reason": "FGO五周年视觉图企划"
     },
@@ -138,5 +138,12 @@
         "avatar": "https://gallibrary.pw/favicon.ico",
         "type": "Wiki",
         "reason": "GalGame数据库"
+    },
+    {
+        "name": "药物百科",
+        "url": "https://yaowubaike.ca/",
+        "avatar": "https://yaowubaike.ca/favicon.ico",
+        "type": "Wiki",
+        "reason": "药物百科"
     }
 ]
