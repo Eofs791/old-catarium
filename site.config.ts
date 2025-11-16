@@ -9,7 +9,7 @@ export default defineSiteConfig({
   favicon: '/favicon.ico',
   author: {
     name: $t('siteConfig.name'),
-    avatar: 'https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico',
+    avatar: 'https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatarv1.ico',
     status: {
       emoji: '💤',
       message: '冬眠中...'

@@ -268,20 +268,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/collections/thought/': RouteRecordInfo<
-      '/collections/thought/',
-      '/collections/thought',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/collections/thought/1': RouteRecordInfo<
-      '/collections/thought/1',
-      '/collections/thought/1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/friends/': RouteRecordInfo<
       '/friends/',
       '/friends',
@@ -299,6 +285,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/': RouteRecordInfo<
       '/posts/',
       '/posts',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/20070503': RouteRecordInfo<
+      '/posts/20070503',
+      '/posts/20070503',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -394,6 +387,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/20251026': RouteRecordInfo<
+      '/posts/20251026',
+      '/posts/20251026',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/20251031': RouteRecordInfo<
       '/posts/20251031',
       '/posts/20251031',
@@ -439,13 +439,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/colle/rip': RouteRecordInfo<
       '/posts/colle/rip',
       '/posts/colle/rip',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/colle/thought': RouteRecordInfo<
-      '/posts/colle/thought',
-      '/posts/colle/thought',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -687,18 +680,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/collections/thought/index.md': {
-      routes:
-        | '/collections/thought/'
-      views:
-        | never
-    }
-    'pages/collections/thought/1.md': {
-      routes:
-        | '/collections/thought/1'
-      views:
-        | never
-    }
     'pages/friends/index.md': {
       routes:
         | '/friends/'
@@ -714,6 +695,12 @@ declare module 'vue-router/auto-routes' {
     'node_modules/.pnpm/valaxy-theme-yun@0.26.10_vue@3.5.22_typescript@5.9.2_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
+      views:
+        | never
+    }
+    'pages/posts/20070503.md': {
+      routes:
+        | '/posts/20070503'
       views:
         | never
     }
@@ -795,6 +782,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/20251026.md': {
+      routes:
+        | '/posts/20251026'
+      views:
+        | never
+    }
     'pages/posts/20251031.md': {
       routes:
         | '/posts/20251031'
@@ -834,12 +827,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/colle/rip.md': {
       routes:
         | '/posts/colle/rip'
-      views:
-        | never
-    }
-    'pages/posts/colle/thought.md': {
-      routes:
-        | '/posts/colle/thought'
       views:
         | never
     }
