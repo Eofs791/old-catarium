@@ -1,8 +1,7 @@
 # you can custom locale
 siteConfig: 
-  subtitle: Small Terrarium
+  subtitle: Welcome to My Small Terrarium
   name: MisakiNeko
-  intro: Living Meaninglessly
 
 themeConfig:
   nav:

@@ -1,8 +1,7 @@
 # 你可以像这样自定义 i18n
 siteConfig:
-  subtitle: 小箱庭
+  subtitle: 欢迎造访我的小箱庭
   name: 见崎美咲
-  intro: 无意义存活着
   
 
 themeConfig:

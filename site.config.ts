@@ -14,7 +14,7 @@ export default defineSiteConfig({
       emoji: '💤',
       message: '冬眠中...'
     },
-    intro: $t('siteConfig.intro')
+    intro: 'In Solitude, Where We Are Least Alone'
   },
 
   orderBy: 'updated',
