@@ -6,4 +6,4 @@
 ![last commit](https://img.shields.io/github/last-commit/Eofs791/Eofs791.github.io)
 ![build](https://img.shields.io/github/actions/workflow/status/Eofs791/Eofs791.github.io/gh-pages.yml)
 
-![repo size](https://img.shields.io/github/repo-size/Eofs791/CatPic?label=imgRepo) 
+[![repo size](https://img.shields.io/github/repo-size/Eofs791/CatPic?label=imgRepo)](https://github.com/Eofs791/CatPic)
