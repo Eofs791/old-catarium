@@ -3,6 +3,7 @@ title: 笔记
 categories: 收藏室
 date: 2022-06-04
 updated: 2025-06-10
+url: /collections/note
 ---
 > 已更新：《可爱表情收集~~青色的女孩：幸运青》
 
@@ -11,5 +12,3 @@ updated: 2025-06-10
 - 《白箱》涉及动画业界术语整理
 
 <!-- more -->
-
-<Redirect to="/collections/note" />

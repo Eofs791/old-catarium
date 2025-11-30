@@ -422,6 +422,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/20251128': RouteRecordInfo<
+      '/posts/20251128',
+      '/posts/20251128',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/20251130': RouteRecordInfo<
+      '/posts/20251130',
+      '/posts/20251130',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/colle/note': RouteRecordInfo<
       '/posts/colle/note',
       '/posts/colle/note',
@@ -429,16 +443,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/colle/offline': RouteRecordInfo<
-      '/posts/colle/offline',
-      '/posts/colle/offline',
+    '/posts/colle/rip': RouteRecordInfo<
+      '/posts/colle/rip',
+      '/posts/colle/rip',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/colle/rip': RouteRecordInfo<
-      '/posts/colle/rip',
-      '/posts/colle/rip',
+    '/posts/mook/20251130': RouteRecordInfo<
+      '/posts/mook/20251130',
+      '/posts/mook/20251130',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -812,21 +826,33 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/20251128.md': {
+      routes:
+        | '/posts/20251128'
+      views:
+        | never
+    }
+    'pages/posts/20251130.md': {
+      routes:
+        | '/posts/20251130'
+      views:
+        | never
+    }
     'pages/posts/colle/note.md': {
       routes:
         | '/posts/colle/note'
       views:
         | never
     }
-    'pages/posts/colle/offline.md': {
-      routes:
-        | '/posts/colle/offline'
-      views:
-        | never
-    }
     'pages/posts/colle/rip.md': {
       routes:
         | '/posts/colle/rip'
+      views:
+        | never
+    }
+    'pages/posts/mook/20251130.md': {
+      routes:
+        | '/posts/mook/20251130'
       views:
         | never
     }
