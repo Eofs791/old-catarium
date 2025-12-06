@@ -100,7 +100,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonMeting({
       global: true,
       props: {
-        id: "2753957634",
+        id: "167827",
         server: "netease",
         type: "song",
         autoplay: true,
