@@ -18,7 +18,7 @@
         "url": "https://mtf.wiki/",
         "avatar": "https://mtf.wiki/favicon/favicon.ico",
         "type": "Wiki",
-        "reason": "mtf wiki"
+        "reason": "最好用的胸围计算器（×"
     },
     {
         "name": "Catbox",
@@ -112,13 +112,6 @@
         "reason": "Sakana~"
     },
     {
-        "name": "化学极乐百科",
-        "url": "https://www.overdose.day/",
-        "avatar": "https://www.overdose.day/favicon.ico",
-        "type": "Wiki",
-        "reason": "化学极乐知识"
-    },
-    {
         "name": "Wplace",
         "url": "https://wplace.live/",
         "avatar":"https://wplace.live/favicon.ico",
@@ -138,12 +131,5 @@
         "avatar": "https://gallibrary.pw/favicon.ico",
         "type": "Wiki",
         "reason": "GalGame数据库"
-    },
-    {
-        "name": "药物百科",
-        "url": "https://yaowubaike.ca/",
-        "avatar": "https://yaowubaike.ca/favicon.ico",
-        "type": "Wiki",
-        "reason": "药物百科"
     }
 ]
