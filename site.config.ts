@@ -4,7 +4,7 @@ export default defineSiteConfig({
   url: 'https://catarium.me',
   lang: 'zh-CN',
   title: 'Catarium',
-  subtitle: $t('siteConfig.subtitle'),
+  subtitle: 'In Solitude, Where We Are Least Alone',
   description: '',
   favicon: '/favicon.ico',
   author: {
@@ -14,7 +14,7 @@ export default defineSiteConfig({
       emoji: '💤',
       message: '冬眠中...'
     },
-    intro: 'In Solitude, Where We Are Least Alone'
+    intro: ''
   },
 
   orderBy: 'updated',
