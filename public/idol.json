@@ -13,14 +13,13 @@
         "avatar": "https://blog.lgc2333.top/assets/favicon.png",
         "name": "LgCookie",
         "blog": "LgCookie",
-        "color": "#bbd7f6"
+        "desc": "一大块小饼干"
     },
     {
         "url": "https://blog.zhilu.site/",
         "avatar": "https://www.zhilu.site/api/avatar.png",
         "name": "纸鹿本鹿",
         "blog": "纸鹿摸鱼处",
-        "desc": "纸鹿至麓不知路，支炉制露不止漉",
-        "color": "#bbd7f6"
+        "desc": "纸鹿至麓不知路，支炉制露不止漉"
     }
 ]

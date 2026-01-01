@@ -6,7 +6,6 @@ friend: /friend.json
 idol: /idol.json
 icon: i-ri-links-fill
 random: true
-aside: false
 nav: false
 ---
 #### 小伙伴们
@@ -14,18 +13,20 @@ nav: false
 
 #### 大佬们
 <YunLinks :links="frontmatter.idol" :random="frontmatter.random" />
-欢迎来交换友链喵，下方评论即可> <   
-我随缘打扫更新博客，希望不要介意喵
 
->友链交换的小要求
+#### 友链申请
+欢迎来交换友链，下方评论或发送邮件至`791sno@gmail.com`即可，感谢认可 > <      
+我尽量保持一月一更新，主要内容偏向二次元，也涉及一些生活和技术相关
+
+##### 友链交换的小要求
 - 非盈利性质网站
 - 合法合规
-- 网址可以正常访问
-- 加入了我的友链    
+- 网站当前可以正常访问
+- 请加入我的友链    
 
->我的友链：
+##### 我的博客信息：
 ```json
-"url": "eofs791.github.io",  
+"url": "https://eofs791.github.io",  
 "avatar": "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico",  
 "name": "见崎美咲",  
 "blog": "Catarium",  
@@ -33,7 +34,8 @@ nav: false
 "color": "#f5a9b8"
 ```
 
->友链交换格式
+##### 友链交换格式
+任意形式提供以下信息即可
 ```json
 "url": "博客URL",  
 "avatar": "头像URL",  
