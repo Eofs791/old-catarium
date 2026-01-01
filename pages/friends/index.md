@@ -2,14 +2,18 @@
 title: 猫的友人帐
 keywords: 链接
 description: 猫的友人帐
-links: /links.json
+friend: /friend.json
+idol: /idol.json
 icon: i-ri-links-fill
 random: true
 aside: false
 nav: false
 ---
-<YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+#### 小伙伴们
+<YunLinks :links="frontmatter.friend" :random="frontmatter.random" />
 
+#### 大佬们
+<YunLinks :links="frontmatter.idol" :random="frontmatter.random" />
 欢迎来交换友链喵，下方评论即可> <   
 我随缘打扫更新博客，希望不要介意喵
 
@@ -23,7 +27,7 @@ nav: false
 ```json
 "url": "eofs791.github.io",  
 "avatar": "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico",  
-"name": "Catarium",  
+"name": "见崎美咲",  
 "blog": "Catarium",  
 "desc": "见崎的猫箱",  
 "color": "#f5a9b8"

@@ -1,0 +1,26 @@
+[
+    {
+        "url": "https://blog.yaria.top",
+        "avatar": "https://img.0v0.my/2024/12/05/67517bcf104da.png",
+        "name": "Ariasaka",
+        "blog": "Ariasakaの小窝",
+        "desc": "人有悲欢离合 月有阴晴圆缺",
+        "color": "#ed709b",
+        "siteshot": "https://img.0v0.my/2024/09/19/66ec130ad1de0.png"
+    },
+    {
+        "url": "https://www.lgc2333.top/",
+        "avatar": "https://blog.lgc2333.top/assets/favicon.png",
+        "name": "LgCookie",
+        "blog": "LgCookie",
+        "color": "#bbd7f6"
+    },
+    {
+        "url": "https://blog.zhilu.site/",
+        "avatar": "https://www.zhilu.site/api/avatar.png",
+        "name": "纸鹿本鹿",
+        "blog": "纸鹿摸鱼处",
+        "desc": "纸鹿至麓不知路，支炉制露不止漉",
+        "color": "#bbd7f6"
+    }
+]
