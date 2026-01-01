@@ -6,7 +6,7 @@ const themeConfig = useThemeConfig()
 
 const showContent = ref(false)
 
-const intro = ['欢迎造访我的小箱庭~', 'In Solitude, Where We Are Least Alone'],
+const intro = ['欢迎造访我的小箱庭~', '一切自我满足，都在这里实现。','In Solitude, Where We Are Least Alone'],
   dynamicIntro = ref(''),
   typingSpeed = 150,
   deletingSpeed = 50,
