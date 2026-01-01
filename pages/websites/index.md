@@ -2,7 +2,7 @@
 title: 猫的收藏室
 aside: false
 nav: false
-websites: /website.json
+websites: /json/websites/website.json
 icon: i-ri-window-line
 ---
 <YunWebsite :Websites="frontmatter.websites" />

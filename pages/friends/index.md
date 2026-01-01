@@ -2,8 +2,8 @@
 title: 猫的友人帐
 keywords: 链接
 description: 猫的友人帐
-friend: /friend.json
-idol: /idol.json
+friend: /json/friends/friend.json
+idol: /json/friends/idol.json
 icon: i-ri-links-fill
 random: true
 nav: false
