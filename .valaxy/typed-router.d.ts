@@ -296,13 +296,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/20220102': RouteRecordInfo<
-      '/posts/20220102',
-      '/posts/20220102',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/20220307': RouteRecordInfo<
       '/posts/20220307',
       '/posts/20220307',
@@ -313,13 +306,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/20220617': RouteRecordInfo<
       '/posts/20220617',
       '/posts/20220617',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/20221231': RouteRecordInfo<
-      '/posts/20221231',
-      '/posts/20221231',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -341,13 +327,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/20241110': RouteRecordInfo<
       '/posts/20241110',
       '/posts/20241110',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/20250101': RouteRecordInfo<
-      '/posts/20250101',
-      '/posts/20250101',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -457,9 +436,37 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/mook/202112': RouteRecordInfo<
+      '/posts/mook/202112',
+      '/posts/mook/202112',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/mook/202212': RouteRecordInfo<
+      '/posts/mook/202212',
+      '/posts/mook/202212',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/mook/202412': RouteRecordInfo<
+      '/posts/mook/202412',
+      '/posts/mook/202412',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/mook/202511': RouteRecordInfo<
       '/posts/mook/202511',
       '/posts/mook/202511',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/mook/202512': RouteRecordInfo<
+      '/posts/mook/202512',
+      '/posts/mook/202512',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -725,12 +732,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/20220102.md': {
-      routes:
-        | '/posts/20220102'
-      views:
-        | never
-    }
     'pages/posts/20220307.md': {
       routes:
         | '/posts/20220307'
@@ -740,12 +741,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/20220617.md': {
       routes:
         | '/posts/20220617'
-      views:
-        | never
-    }
-    'pages/posts/20221231.md': {
-      routes:
-        | '/posts/20221231'
       views:
         | never
     }
@@ -764,12 +759,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/20241110.md': {
       routes:
         | '/posts/20241110'
-      views:
-        | never
-    }
-    'pages/posts/20250101.md': {
-      routes:
-        | '/posts/20250101'
       views:
         | never
     }
@@ -863,9 +852,33 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/mook/202112.md': {
+      routes:
+        | '/posts/mook/202112'
+      views:
+        | never
+    }
+    'pages/posts/mook/202212.md': {
+      routes:
+        | '/posts/mook/202212'
+      views:
+        | never
+    }
+    'pages/posts/mook/202412.md': {
+      routes:
+        | '/posts/mook/202412'
+      views:
+        | never
+    }
     'pages/posts/mook/202511.md': {
       routes:
         | '/posts/mook/202511'
+      views:
+        | never
+    }
+    'pages/posts/mook/202512.md': {
+      routes:
+        | '/posts/mook/202512'
       views:
         | never
     }
