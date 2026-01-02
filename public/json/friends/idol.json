@@ -39,5 +39,11 @@
         "avatar": "https://www.perfare.net/favicon.ico",
         "name": "Perfare's Blog",
         "blog": "Perfare's Blog"
+    },
+    {
+        "url": "https://www.wikimoe.com/",
+        "avatar": "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
+        "blog": "维基萌",
+        "desc": "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！"
     }
 ]
