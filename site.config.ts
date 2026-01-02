@@ -4,7 +4,7 @@ export default defineSiteConfig({
   url: 'https://catarium.me',
   lang: 'zh-CN',
   title: 'Catarium',
-  subtitle: 'In Solitude, Where We Are Least Alone',
+  subtitle: '接下来，无用',
   description: '',
   favicon: '/favicon.ico',
   author: {

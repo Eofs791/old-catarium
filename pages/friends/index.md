@@ -3,15 +3,23 @@ title: 猫的友人帐
 keywords: 链接
 description: 猫的友人帐
 friend: /json/friends/friend.json
+bangumer: /json/friends/bangumer.json
 idol: /json/friends/idol.json
 icon: i-ri-links-fill
 random: true
 nav: false
 ---
+尝试让箱庭变得稍微热闹一些。
 #### 小伙伴们
+感谢你与我交换友链！
 <YunLinks :links="frontmatter.friend" :random="frontmatter.random" />
 
-#### 大佬们
+#### Bangumer
+都是来自[bgm.tv](https://bgm.tv)的小伙伴，bangumer博客大收集！
+<YunLinks :links="frontmatter.bangumer" :random="frontmatter.random" />
+
+#### 单向链接
+不交换友链或者暂时单向的博客站点，很喜欢你们的博客！
 <YunLinks :links="frontmatter.idol" :random="frontmatter.random" />
 
 #### 友链申请
@@ -39,7 +47,7 @@ nav: false
 ```json
 "url": "博客URL",  
 "avatar": "头像URL",  
-"name": "博客名称",  
+"name": "博主名称",  
 "blog": "博客名称",  
 "desc": "博客描述",  
 "color": "友链按钮颜色"
