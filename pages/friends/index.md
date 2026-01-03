@@ -20,7 +20,7 @@ nav: false
 <YunLinks :links="frontmatter.bangumer" :random="frontmatter.random" />
 
 #### 单向链接
-不交换友链或者暂时单向的博客站点，很喜欢你们的博客！
+不交换友链或者暂时单向的博客站点，很喜欢你们的博客！如果成为双向友链会移至前面。
 <YunLinks :links="frontmatter.idol" :random="frontmatter.random" />
 
 #### 友链申请
