@@ -44,7 +44,7 @@
         "blog": "纸鹿摸鱼处",
         "desc": "纸鹿至麓不知路，支炉制露不止漉"
     },
-        {
+    {
         "url": "https://blog.yaria.top",
         "avatar": "https://img.0v0.my/2024/12/05/67517bcf104da.png",
         "name": "Ariasaka",
@@ -52,5 +52,12 @@
         "desc": "人有悲欢离合 月有阴晴圆缺",
         "color": "#ed709b",
         "siteshot": "https://img.0v0.my/2024/09/19/66ec130ad1de0.png"
-    }
+    },
+    {
+        "url": "https://www.tcdw.net/",
+        "avatar": "https://avatars.githubusercontent.com/u/8687182?v=4&s=200",
+        "name": "吐槽大王部落格",
+        "blog": "吐槽大王部落格",
+        "desc": "正在学习接受不完美的世界"
+    },
 ]

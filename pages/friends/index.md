@@ -9,7 +9,8 @@ icon: i-ri-links-fill
 random: true
 nav: false
 ---
-尝试让箱庭变得稍微热闹一些。
+尝试让箱庭变得稍微热闹一些。      
+以下顺序随机，不分先后。
 #### 小伙伴们
 感谢你与我交换友链！
 <YunLinks :links="frontmatter.friend" :random="frontmatter.random" />
