@@ -38,5 +38,19 @@
         "avatar": "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
         "blog": "维基萌",
         "desc": "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！"
+    },
+    {
+        "url": "https://blog.cosine.ren/",
+        "avatar": "https://blog.cosine.ren/img/avatar.webp",
+        "blog": "余弦の博客",
+        "name": "cosine",
+        "desc": "= WA 的一声就哭了 ="
+    },
+    {
+        "url": "https://yui540.com/",
+        "avatar": "https://yui540.com/_next/static/media/circle.010f77a7.png",
+        "blog": "yui.",
+        "name": "yui540",
+        "desc": "遊びに来てくれてありがとう！ゆっくりしていってね。"
     }
 ]
