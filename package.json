@@ -12,6 +12,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@waline/client": "^3.8.0",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-live2d": "^0.4.0",
     "valaxy-addon-meting": "^0.1.4",
