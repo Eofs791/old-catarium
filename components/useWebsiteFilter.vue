@@ -1,5 +1,5 @@
 import { ref, computed } from 'vue'
-import type { WebsiteType } from '../components/YunWebsiteItem.vue'
+import {WebsiteType} from '../types/extension'
 
 export function useWebsiteFilter(websites: WebsiteType[]) {
   const currentType = ref('all')
@@ -15,7 +15,7 @@ export function useWebsiteFilter(websites: WebsiteType[]) {
 
   // 按类型筛选
   const filteredWebsites = computed(() => {
-    if (currentType.value === 'all')
+    if (currentType.value === 'allr')
       return websites
     return websites.filter(site => site.type === currentType.value)
   })

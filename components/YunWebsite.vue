@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref, computed, watchEffect } from 'vue'
 import YunWebsiteItem from './YunWebsiteItem.vue'
-import type { WebsiteType } from './YunWebsiteItem.vue'
+import {WebsiteType} from '../types/extension.d.ts'
 
 const props = defineProps<{
   Websites: WebsiteType[] | string

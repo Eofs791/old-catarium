@@ -59,5 +59,36 @@
         "name": "吐槽大王部落格",
         "blog": "吐槽大王部落格",
         "desc": "正在学习接受不完美的世界"
+    },
+    {
+        "url": "https://aronnax.site",
+        "avatar": "https://aronnax.site/images/avatar.jpeg",
+        "name": "Aronnax",
+        "blog": "Aronnax's Blog",
+        "desc": "代码 | 科技 | 动漫 | 影视",
+        "bgImg": "/bangumi-link.png"
+    },
+    {
+        "url": "https://muxueblogs.netlify.app/",
+        "avatar": "https://blogs.muxueavid.top/blogs/common/avator.jpg",
+        "name": "暮雪Avid",
+        "blog": "暮雪Avid的博客",
+        "desc": "GENIUSES",
+        "bgImg": "/bangumi-link.png"
+    },
+    {
+        "url": "https://arckive.link/",
+        "avatar": "https://arckive.link/images/avatar_hu2781b7515e806e9a2d5559d78590dea7_1229216_300x0_resize_q75_box.jpg",
+        "name": "白井起汐",
+        "blog": "起汐のBlog",
+        "desc": "このままずっと遠くに行けたらいいのにな",
+        "bgImg": "/bangumi-link.png"
+    },
+    {
+        "url": "https://blog.cosine.ren/",
+        "avatar": "https://blog.cosine.ren/img/avatar.webp",
+        "blog": "余弦の博客",
+        "name": "cosine",
+        "desc": "= WA 的一声就哭了 ="
     }
 ]

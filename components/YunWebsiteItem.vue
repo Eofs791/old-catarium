@@ -1,14 +1,7 @@
 <script setup lang="ts">
 import { useMotion } from '@vueuse/motion'
 import { ref } from 'vue'
-
-export interface WebsiteType {
-  name: string
-  url: string
-  avatar: string
-  type: string
-  reason?: string
-}
+import {WebsiteType} from '../types/extension'
 
 const props = defineProps<{
   i: number

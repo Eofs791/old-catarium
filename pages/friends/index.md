@@ -3,21 +3,24 @@ title: 猫的友人帐
 keywords: 链接
 description: 猫的友人帐
 friend: /json/friends/friend.json
-bangumer: /json/friends/bangumer.json
 idol: /json/friends/idol.json
+bgm: 
+  - name: bangumi
+    link: https://bgm.tv
+    icon: https://bgm.tv/img/ico/bgm_banner.gif
+    color: '#000000'
 icon: i-ri-links-fill
 random: true
 nav: false
 ---
 尝试让箱庭变得稍微热闹一些。      
-以下顺序随机，不分先后。
+以下顺序随机，不分先后。        
+
+来自[bgm.tv](bgm.tv)的班友们，现在右上角都有一只可爱的春菜酱啦～
+
 #### 小伙伴们
 感谢你与我交换友链！
 <YunLinks :links="frontmatter.friend" :random="frontmatter.random" />
-
-#### Bangumer
-都是来自[bgm.tv](https://bgm.tv)的小伙伴，bangumer博客大收集！
-<YunLinks :links="frontmatter.bangumer" :random="frontmatter.random" />
 
 #### 单向链接
 不交换友链或者暂时单向的博客站点，很喜欢你们的博客！如果成为双向友链会移至前面。

@@ -163,13 +163,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/collections/rip/14': RouteRecordInfo<
-      '/collections/rip/14',
-      '/collections/rip/14',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/collections/rip/2': RouteRecordInfo<
       '/collections/rip/2',
       '/collections/rip/2',
@@ -622,12 +615,6 @@ declare module 'vue-router/auto-routes' {
     'pages/collections/rip/13.md': {
       routes:
         | '/collections/rip/13'
-      views:
-        | never
-    }
-    'pages/collections/rip/14.md': {
-      routes:
-        | '/collections/rip/14'
       views:
         | never
     }
