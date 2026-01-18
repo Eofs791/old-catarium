@@ -103,7 +103,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         id: "2754304984",
         server: "netease",
         type: "song",
-        autoplay: true,
         theme: "#F5A9B8",
         loop: "one",
       },

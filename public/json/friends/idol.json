@@ -21,14 +21,6 @@
         "desc": "｜д•´)!!"
     },
     {
-        "url": "https://physnya.top",
-        "avatar": "https://physnya.top/images/Physics_nya.jpg",
-        "name": "菲兹克斯喵",
-        "blog": "菲兹克斯喵",
-        "desc": "Eclipse first, the rest nowhere.",
-        "bgImg": "/bangumi-link.png"
-    },
-    {
         "url": "https://www.perfare.net/",
         "avatar": "https://www.perfare.net/favicon.ico",
         "name": "Perfare's Blog",
@@ -38,7 +30,8 @@
         "url": "https://www.wikimoe.com/",
         "avatar": "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
         "blog": "维基萌",
-        "desc": "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！"
+        "desc": "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！",
+        "bgImg": "/bangumi-link.png"
     },
     {
         "url": "https://yui540.com/",
@@ -46,5 +39,26 @@
         "blog": "yui.",
         "name": "yui540",
         "desc": "遊びに来てくれてありがとう！ゆっくりしていってね。"
+    },
+    {
+        "url": "https://akarin.dev/",
+        "avatar": "https://avatars.githubusercontent.com/u/47057319?s=128",
+        "blog": "✨小透明・宸✨",
+        "name": "存在感消失的地方|ω•`)",
+        "desc": "身处寒夜 把握星光✨"
+    },
+    {
+        "url": "https://dangokanako.github.io/",
+        "avatar": "https://dangokanako.github.io/images/base/icon.png",
+        "blog": "小鸟的风祭森林",
+        "name": "坂上河南子",
+        "bgImg": "/bangumi-link.png"
+    },
+    {
+        "url": " https://trig29.github.io/",
+        "avatar": "https://trig29.github.io/images/avatar.jpg",
+        "blog": "一个博客",
+        "name": "trig",
+        "bgImg": "/bangumi-link.png"
     }
 ]
