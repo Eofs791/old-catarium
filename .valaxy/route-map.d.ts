@@ -549,7 +549,7 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.27.0_@babel+parser@7.29.0_@nuxt+kit@3.21.0_@types+markdown-it@14.1.2_@types+no_627017fe7b3669699a392e34fcab5a3a/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.27.0_@babel+parser_627017fe7b3669699a392e34fcab5a3a/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
