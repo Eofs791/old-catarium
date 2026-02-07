@@ -30,8 +30,7 @@
         "url": "https://www.wikimoe.com/",
         "avatar": "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
         "blog": "维基萌",
-        "desc": "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！",
-        "bgImg": "/bangumi-link.png"
+        "desc": "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！"
     },
     {
         "url": "https://yui540.com/",
@@ -39,27 +38,6 @@
         "blog": "yui.",
         "name": "yui540",
         "desc": "遊びに来てくれてありがとう！ゆっくりしていってね。"
-    },
-    {
-        "url": "https://akarin.dev/",
-        "avatar": "https://avatars.githubusercontent.com/u/47057319?s=128",
-        "blog": "✨小透明・宸✨",
-        "name": "存在感消失的地方|ω•`)",
-        "desc": "身处寒夜 把握星光✨"
-    },
-    {
-        "url": "https://dangokanako.github.io/",
-        "avatar": "https://dangokanako.github.io/images/base/icon.png",
-        "blog": "小鸟的风祭森林",
-        "name": "坂上河南子",
-        "bgImg": "/bangumi-link.png"
-    },
-    {
-        "url": " https://trig29.github.io/",
-        "avatar": "https://trig29.github.io/images/avatar.jpg",
-        "blog": "一个博客",
-        "name": "trig",
-        "bgImg": "/bangumi-link.png"
     },
     {
         "url": "https://cloud09.space/",
