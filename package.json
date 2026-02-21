@@ -14,10 +14,10 @@
   "dependencies": {
     "@waline/client": "^3.12.2",
     "valaxy-addon-bangumi": "^0.2.2",
-    "valaxy-addon-live2d": "^0.4.0",
     "valaxy-addon-meting": "^0.1.4",
     "valaxy-addon-waline": "^0.2.1",
-    "valaxy-theme-yun": "0.27.0"
+    "valaxy-theme-yun": "0.27.0",
+    "vue": "^3.5.28"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
