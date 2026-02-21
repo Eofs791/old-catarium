@@ -88,6 +88,12 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
+  modules: {
+    rss: {
+      extractImagePathsFromHTML: false,
+    }
+  },
+
   siteConfig: {
     comment: {
       enable: true
