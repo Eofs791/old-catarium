@@ -1,5 +1,5 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { $t,defineValaxyConfig } from 'valaxy'
+import { $t, defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonMeting } from 'valaxy-addon-meting'
 import { addonBangumi } from 'valaxy-addon-bangumi'

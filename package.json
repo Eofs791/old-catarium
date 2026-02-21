@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "typescript": "^5.9.3",
+    "unplugin-vue-router": "^0.19.2",
     "valaxy": "0.27.0"
   }
 }
