@@ -471,6 +471,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/20260220': RouteRecordInfo<
+      '/posts/20260220',
+      '/posts/20260220',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/20260221': RouteRecordInfo<
       '/posts/20260221',
       '/posts/20260221',
@@ -928,6 +935,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/20260100.md': {
       routes:
         | '/posts/20260100'
+      views:
+        | never
+    }
+    'pages/posts/20260220.md': {
+      routes:
+        | '/posts/20260220'
       views:
         | never
     }

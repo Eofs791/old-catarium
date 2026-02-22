@@ -44,7 +44,7 @@ export default defineSiteConfig({
     },
     {
       name: 'Twitter',
-      link: 'https://x.com/MaoQi33394',
+      link: 'https://x.com/mi7sa9ki1',
       icon: 'i-ri-twitter-x-fill',
       color: 'black',
     },
