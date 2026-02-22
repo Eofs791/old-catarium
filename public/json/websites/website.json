@@ -135,7 +135,15 @@
     {
         "name": "型月辞典",
         "url": "https://www.tmdict.com/",
+        "avatar": "https://www.tmdict.com/favicon.ico",
         "type": "Wiki",
         "reason": "Type-Moon相关词条"
+    },
+    {
+        "name": "Sora's Pixel Converter",
+        "url": "https://pixel-converter.ameniwa.com/",
+        "avatar": "https://pixel-converter.ameniwa.com/assets/sora_ghost-BLwOL9Rq.png",
+        "type": "Tool",
+        "reason": "基于AI的像素图片转换器"
     }
 ]
