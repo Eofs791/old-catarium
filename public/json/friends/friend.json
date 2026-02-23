@@ -74,10 +74,16 @@
         "desc": "身处寒夜 把握星光✨"
     },
     {
-      "url": "https://www.weitao-jiang.cn",
-      "avatar": "https://www.weitao-jiang.cn/images/avatar.jpg",
-      "blog": "CBDT的小站",
-      "name": "CBDT的小站",
-      "desc": "漂泊在互联网一角的牢无一只"
+        "url": "https://www.weitao-jiang.cn",
+        "avatar": "https://www.weitao-jiang.cn/images/avatar.jpg",
+        "blog": "CBDT的小站",
+        "name": "CBDT的小站",
+        "desc": "漂泊在互联网一角的牢无一只"
+    },
+    {
+        "url": "https://www.wikimoe.com/",
+        "avatar": "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
+        "blog": "维基萌",
+        "desc": "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！"
     }
 ]
