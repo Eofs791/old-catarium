@@ -73,15 +73,18 @@ onMounted(() => {
         show: showContent,
       }">
         <YunAuthorName class="mt-3" />
-        <div class="site-author-intro" m="t-0 b-4">
+        <!--<div class="site-author-intro" m="t-0 b-4">
           {{ dynamicIntro }}
-        </div>
+        </div>-->
+        <YunAuthorIntro />
 
         <div class="py-4 md:py-5 lg:pt-6">
           <YunAnimLineDraw />
         </div>
         <div flex="~ col" class="gap-2 items-center justify-center">
           <YunSiteTitle />
+          <YunSiteSubtitle />
+          <YunSiteDescription />
         </div>
         <div class="scale-x--100 py-4 md:py-5 lg:pb-6">
           <YunAnimLineDraw />

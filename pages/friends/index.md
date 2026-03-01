@@ -10,7 +10,7 @@ random: true
 nav: false
 ---
 尝试让箱庭变得稍微热闹一些。      
-以下顺序随机，不分先后。        
+以下顺序随机，不分先后，总之都是我很喜欢的站点~        
 
 #### 小伙伴们
 感谢你与我交换友链！
@@ -21,7 +21,7 @@ nav: false
 <YunLinks :links="frontmatter.bangumi" :random="frontmatter.random" />
 
 #### 单向链接
-不交换友链或者暂时单向的博客站点，很喜欢你们的博客！如果成为双向友链会移至前面。
+不交换友链或者暂时单向的站点，如果成为双向友链会移至前面。
 <YunLinks :links="frontmatter.idol" :random="frontmatter.random" />
 
 #### 友链申请
