@@ -85,5 +85,12 @@
         "avatar": "https://www.wikimoe.com/upload/siteImg/siteFavicon.png",
         "blog": "维基萌",
         "desc": "萌即是正义！时不时分享一些ACG活动记录与有趣代码的小站！"
+    },
+    {
+        "url": "https://cloud09.space/",
+        "avatar": "https://raw.githubusercontent.com/cloud-oc/picx-images-hosting/refs/heads/master/Origin/Cloud_icon.pfpafpaii.png?spaceId=62ea150e-ff98-40ae-986e-7a386289383f&t=2e3b58d0-50e3-805b-8971-e02a5ca666a9",
+        "blog": "Cloud09_Space",
+        "name": "Cloud09_Space",
+        "desc": "云零九空间"
     }
 ]
