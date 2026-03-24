@@ -1,7 +1,7 @@
 import {  $t,defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://catarium.me',
+  url: 'https://catarium.me/old-catarium/',
   lang: 'zh-CN',
   title: 'Catarium',
   subtitle: '接下来，无用',
